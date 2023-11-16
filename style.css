@@ -90,7 +90,7 @@ body {
 }
 
 .spacers {
-    padding-top: 2vh;
+    padding-top: 1.3vh;
     padding-bottom: 8vh;
 }
 
@@ -161,7 +161,14 @@ body {
     color: cornflowerblue;
 }
 .next {
+    position: absolute;
+    left: 80vw;
     text-align: right;
+}
+.back {
+    position: absolute;
+    left: 20vw;
+    text-align: left;
 }
 
 .image {
@@ -182,5 +189,12 @@ body {
     padding-top: 5vh;
     width: 60vw;
     height: 45vh;
+    padding-left: 20vw;
+}
+.iframe3 {
+    border-style: none;
+    padding-top: 5vh;
+    width: 60vw;
+    height: 65vh;
     padding-left: 20vw;
 }

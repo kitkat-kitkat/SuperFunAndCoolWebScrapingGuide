@@ -15,7 +15,7 @@
 </head>
 <body>
 <div id="navbar">
-    <a href="welcome.html">Welcome</a>
+    <a href="index.html">Welcome</a>
     <a href="lesson1.html">Lessons</a>
     <div id="logo">Super Fun and Cool<p class="title-break"></p>Web Scraping Guide</div>
     <a href="examples.html">Examples</a>
@@ -42,7 +42,7 @@
     <div class="text">
         To select an element to scrape, hover over the element on the display of the website. It should appear blue. Then, click the element. In the case of this Amazon page, you want to scrape the name of the product, so click that on the page.
     </div>
-    <img src="images/image2.png" class="image"/>
+    <img src="image2.png" class="image"/>
 
     <div class="number">
         2.
@@ -53,7 +53,7 @@
     <div class="text">
         Once clicked, your first element should now have a green outline. You might notice that other similar elements on the page are also highlighted in yellow. Because you want the name of every product on the page and not just the single element (the name of the HERSHEY’s product in this case), you'll also click on one of the yellow elements.
     </div>
-    <img src="images/image3.png" class="image"/>
+    <img src="image3.png" class="image"/>
 
     <div class="number">
         3.
@@ -64,7 +64,7 @@
     <div class="text">
         Once clicked, every element that was highlighted in yellow is now selected to be scraped, which is indicated by the green highlight. You might also notice that in the panel labeled “Select candy_name” on the left side of the screen, the amount of elements selected for scraping is shown in parentheses (45).
     </div>
-    <img src="images/image4.png" class="image"/>
+    <img src="image4.png" class="image"/>
 
     <div class="number">
         4.
@@ -75,7 +75,7 @@
     <div class="text">
         Now, you need to choose the specific type of data to extract from the selections. This information is shown under Select candy_name(45). By default, the name and url of selected elements is extracted.
     </div>
-    <img src="images/image5.png" class="image"/>
+    <img src="image5.png" class="image"/>
 
     <div class="number">
         5.
@@ -86,7 +86,7 @@
     <div class="text">
         There's no need to scrape the URL of the elements, so you can remove it by clicking on the trash can icon next to the Extract url command.
     </div>
-    <img src="images/image5.png" class="image"/>
+    <img src="image5.png" class="image"/>
 
     <div class="number">
         6.
@@ -97,7 +97,7 @@
     <div class="text">
         Right now, ParseHub is only extracting the names of the candy products, but you also want the prices. In order to extract the prices relative to the names (as you want prices to be accurate for each candy product), you'll need to use a command called relative select.
     </div>
-    <img src="images/image6.png" class="image"/>
+    <img src="image6.png" class="image"/>
 
     <div class="number">
         7.
@@ -108,7 +108,7 @@
     <div class="text">
         Relative select attaches newly selected elements to already selected elements. In this case, it would attach each price to a candy name, which is what you want. In order to use it, you first need to click on the already selected element. After doing so, an arrow will appear from the already selected element prompting you to click on the new element you want to attach to it. It should look like this:
     </div>
-    <img src="images/image7.png" class="image"/>
+    <img src="image7.png" class="image"/>
 
     <div class="number">
         8.
@@ -129,7 +129,7 @@
     <div class="text">
         Let’s rename selection1 to more accurately reflect what it is selected. You can name it candy_price. Now to extract data from the relative selections, click the plus sign next to the command. Then, under advanced, click on “Extract”.
     </div>
-    <img src="images/image8.png" class="image"/>
+    <img src="image8.png" class="image"/>
 
     <div class="number">
         10.
@@ -150,7 +150,7 @@
     <div class="text">
         To test if your program correctly extracts the product name and price, click the “Get Data” button. Then, click the Run button and wait for the data to be collected.
     </div>
-    <img src="images/image9.png" class="image"/>
+    <img src="image9.png" class="image"/>
 
     <div class="number">
         12.
@@ -161,7 +161,7 @@
     <div class="text">
         Wait for the data to be collected, and download it as a JSON. JSON is a file format that stores and transmits data objects and their attributes, perfect for your use case! After downloading the file, open it in VSCode and take a look at the data. It should look like this:
     </div>
-    <img src="images/image11.png" class="image"/>
+    <img src="image11.png" class="image"/>
 
     <div class="nav">
         <div class="back">
